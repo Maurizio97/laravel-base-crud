@@ -1,5 +1,6 @@
 @extends('layouts.main-layout')
 @section('content')
+<section>
     <h1>
         Title: {{ $comic -> title }}
     </h1>
@@ -12,4 +13,5 @@
             Author: {{ $comic -> author }}
         </span>
     </div>
+</section>
 @endsection
