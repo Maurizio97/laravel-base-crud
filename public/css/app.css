@@ -1,0 +1,19 @@
+header {
+  background-color: olivedrab;
+  color: black;
+  height: 120px;
+}
+
+header h1 {
+  line-height: 120px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
