@@ -6,7 +6,7 @@
     <ul>
         @foreach ($comics as $comic)
             <li>
-                <a href="#">
+                <a href=" {{route('show', $comic -> id)}}">
                     {{ $comic -> title}} (pag.{{ $comic -> pages }})
                 </a>
             </li>

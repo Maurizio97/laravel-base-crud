@@ -14,6 +14,6 @@ class HomeController extends Controller
 
     public function show($id){
         $comic = Comic::FindOrFail($id);
-        return view('pages.show');
+        return view('pages.show', compact('comic'));
     }
 }
