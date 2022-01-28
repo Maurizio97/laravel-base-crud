@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+ul {
+    text-align: center;
+    li {
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+section {
+    height: calc(100vh - 160px);
+    overflow: auto;
+    padding: 40px 0;
+    font-size: 28px;
+    position: relative;
+
+}
