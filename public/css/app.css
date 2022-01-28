@@ -1,0 +1,63 @@
+header {
+  background-color: olivedrab;
+  color: black;
+  height: 120px;
+}
+
+header h1 {
+  line-height: 120px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+}
+
+footer {
+  background-color: olivedrab;
+  height: 40px;
+}
+
+footer div {
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  height: calc(100vh - 160px);
+  overflow: auto;
+  padding: 40px 0;
+  font-size: 28px;
+  position: relative;
+}
+
+section div {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
