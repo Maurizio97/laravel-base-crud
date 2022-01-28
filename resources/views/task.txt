@@ -1,0 +1,11 @@
+TODO TODAY
+
+REPO: laravel-base-crud
+
+GOAL:
+come detto in classe, ricreare tutto l'ecosistema a partire dalle migration fino alle rotte home/index (migration + model + factory + seeder + controller + views) per l'entita' fumetto (comics):
+- id
+- title
+- author
+- release_date
+- pages (count)
